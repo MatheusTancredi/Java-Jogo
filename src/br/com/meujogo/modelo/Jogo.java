@@ -143,7 +143,7 @@ public class Jogo extends JPanel implements ActionListener, KeyListener {
         // Oculta o botão de reiniciar
         botaoReiniciar.setVisible(false);
         // Reinicia a posição do personagem
-        personagem.setY(-400); // Posição inicial do personagem
+        personagem = new Personagem(550, -400); // Posição inicial do personagem
         // Reseta a pontuação
         pontuacao = 0;
         // Atualiza a label de pontuação
