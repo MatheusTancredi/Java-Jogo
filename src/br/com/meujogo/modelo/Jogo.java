@@ -101,7 +101,7 @@ public class Jogo extends JPanel implements ActionListener, KeyListener {
         add(labelPontuacao); // Adiciona a label ao painel
 
         // Inicia o processo de criação de plataformas aleatórias
-        Timer plataformaTimer = new Timer(800, new ActionListener() {
+        Timer plataformaTimer = new Timer(650, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 gerarPlataforma();
